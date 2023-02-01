@@ -521,6 +521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rootPrefab: {fileID: 8980979553539615100, guid: f46379316624e684db7d910ea957450c, type: 3}
+  rootControllerPrefab: {fileID: 8980979553539615100, guid: 5153d8a57ce92449d8deb807ffdcaa61, type: 3}
   playerDirection: {x: 0, y: -2, z: 0}
   currentPlayerObject: {fileID: 8675876594121114336}
   timeToSpawn: 0.2
@@ -663,6 +664,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toFollow: {fileID: 8675876594121114343}
   speed: 10
+  FollowX: 1
+  FollowY: 1
 --- !u!20 &1211214806
 Camera:
   m_ObjectHideFlags: 0
