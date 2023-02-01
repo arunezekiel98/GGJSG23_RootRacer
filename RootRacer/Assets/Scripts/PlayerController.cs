@@ -5,11 +5,15 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private GameObject rootPrefab;
+    [SerializeField] private GameObject rootControllerPrefab;
     [SerializeField] private Vector3 playerDirection = new Vector3(0, 1, 0);
     [SerializeField] private GameObject currentPlayerObject;
 
     [SerializeField] private float timeToSpawn = 0.5f; // Time it takes to spawn new player circle
     private float currTimeToSpawn; // Tracked time between spawns, when value reaches 0 reset to timeToSpawn
+
+    int rootcount = 0;
+    int counter = 10; //every 5 circles spawn a branch or something
 
     // Start is called before the first frame update
     void Start()
@@ -24,10 +28,20 @@ public class PlayerController : MonoBehaviour
         if (currTimeToSpawn <= 0f)
         {
             currTimeToSpawn += timeToSpawn;
+            rootcount++;
 
-            GameObject newRoot = Instantiate(rootPrefab);
+            GameObject newRoot = Instantiate(rootPrefab);//create new object
             newRoot.transform.position = currentPlayerObject.transform.position;
             newRoot.transform.parent = this.transform;
+
+            if (rootcount == counter)
+            {
+                GameObject branchRoot = Instantiate(rootControllerPrefab);//create new object
+                branchRoot.transform.position = currentPlayerObject.transform.position + new Vector3(1,0,0);
+                branchRoot.transform.parent = this.transform;
+
+                rootcount = 0;
+            }
 
         }
 
