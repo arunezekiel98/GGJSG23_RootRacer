@@ -447,7 +447,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -521,9 +521,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rootPrefab: {fileID: 8980979553539615100, guid: f46379316624e684db7d910ea957450c, type: 3}
-  playerDirection: {x: 0, y: -1, z: 0}
+  playerDirection: {x: 0, y: -2, z: 0}
   currentPlayerObject: {fileID: 8675876594121114336}
-  timeToSpawn: 0.5
+  timeToSpawn: 0.2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,6 +802,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1531504414}
   - component: {fileID: 1531504415}
+  - component: {fileID: 1531504416}
   m_Layer: 0
   m_Name: RootBase
   m_TagString: Untagged
@@ -866,7 +867,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.4901961, g: 0.2627451, b: 0.17254902, a: 1}
+  m_Color: {r: 0.45188454, g: 0.8584906, b: 0.376602, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -876,6 +877,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1531504416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531504413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d722729697ff77408554da2cf1e7a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 1531504415}
+  transitionColor: {r: 0.4901961, g: 0.2627451, b: 0.17254902, a: 1}
+  transitionSpeed: 1
 --- !u!1 &2040565446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,7 +1035,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.49056602, g: 0.26438338, b: 0.17354931, a: 1}
+  m_Color: {r: 0.45098042, g: 0.8588236, b: 0.37647063, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

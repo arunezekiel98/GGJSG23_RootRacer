@@ -7,7 +7,8 @@ public class CameraFollow : MonoBehaviour
 
     public Transform toFollow;
     public float speed = 10f;
-
+    public bool FollowX = true;
+    public bool FollowY = true;
     // Start is called before the first frame update
     void Start()
     {
