@@ -6,9 +6,9 @@ using System.Linq;
 
 public class Worm : MonoBehaviour
 {
-    [SerializeField] public float speed = 0.5f; //horizontal movement speed
-    [SerializeField] public float frequency = 20f; //up down frequency
-    [SerializeField] public float magnitude = 0.5f; //how big the sine wave is
+    [SerializeField] public float speed = 2.0f; //horizontal movement speed
+    [SerializeField] public float frequency = 10f; //up down frequency
+    [SerializeField] public float magnitude = 0.05f; //how big the sine wave is
     [SerializeField] public bool facingRight = true; //whether worm is right facing
     [SerializeField] public List<GameObject> bodyParts = new List<GameObject>();
 
