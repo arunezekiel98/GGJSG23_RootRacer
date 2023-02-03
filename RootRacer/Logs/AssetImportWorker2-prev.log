@@ -254,3 +254,43 @@ Received Import Request.
 Number of updated assets reloaded before import = 0
 Start importing Assets/dog.prefab using Guid(55b8c977d672eae4fa3cf59dd65cc254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28bd0cdd3783c7a4710efcdb6c6fd4e') in 0.002351 seconds 
 Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 201.634973 seconds.
+  path: Assets/Bug.controller
+  artifactKey: Guid(d03aabee84e5a4748abb7b72a03bfa69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Bug.controller using Guid(d03aabee84e5a4748abb7b72a03bfa69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e20b90a28e40b7fa884089002cf146b') in 0.002346 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.785917 seconds.
+  path: Assets/BugAnimation.anim
+  artifactKey: Guid(e9e82a976b27b434b812aa28485647ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BugAnimation.anim using Guid(e9e82a976b27b434b812aa28485647ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613320e150fdf33146e2195170233f04') in 0.002214 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.842309 seconds.
+  path: Assets/spritesheet_0.controller
+  artifactKey: Guid(f62df9bdd9d1eeb4bacece0545d1ecb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/spritesheet_0.controller using Guid(f62df9bdd9d1eeb4bacece0545d1ecb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c467fae4ff467d54e8b92bc5340c0a') in 0.001297 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 99.226448 seconds.
+  path: Assets/rock.prefab
+  artifactKey: Guid(4fec2ccd7a564eb4ea0f663ded13c0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/rock.prefab using Guid(4fec2ccd7a564eb4ea0f663ded13c0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37325a7ec81ee36ceb69f7eaac34758') in 0.015615 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 4.983255 seconds.
+  path: Assets/rock.prefab
+  artifactKey: Guid(4fec2ccd7a564eb4ea0f663ded13c0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/rock.prefab using Guid(4fec2ccd7a564eb4ea0f663ded13c0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d5314259e7143d916cd87e52636bca') in 0.023511 seconds 
+Number of asset objects unloaded after import = 9
